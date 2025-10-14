@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+###############
+#Author: Gowthami
+#Date: 14 Oct 2025
+#About: loops and condition script
+
+# For loop and if conditions are used in this script
+
+
+###################################
+
+for i in {1..100}; do
+
+if (( i%2 == 0 || i%3 == 0)) && (( i%15 != 0 && i%10 != 0 ))
+then 
+
+echo "$i"
+
+fi
+
+done
